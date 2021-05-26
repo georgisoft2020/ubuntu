@@ -1,0 +1,2 @@
+# ubuntu
+some scripts
