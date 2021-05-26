@@ -28,8 +28,6 @@ Shift_L,   Up,   Shift_L|Button4
 Shift_L,   Down, Shift_L|Button5
 where you should try different values for # in the lines
 ```
-None,      Up,   Button4, #
-None,      Up,   Button5, #
 
   
 To test the settings use the command 
