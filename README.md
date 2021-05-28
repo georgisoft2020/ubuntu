@@ -35,3 +35,9 @@ To test the settings use the command
 
 Open Startup Applications and add 
 ```imwheel -b "4 5"```
+
+
+# Brightness
+```echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brightness```
+
+
