@@ -41,5 +41,8 @@ Open Startup Applications and add
 ```echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brightness```
 
 # tweaker
-sudo apt install gnome-tweak-tool
+```sudo apt install gnome-tweak-tool```
+
+# Screenshot
+flameshot
 
