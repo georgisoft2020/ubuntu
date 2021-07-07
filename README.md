@@ -46,3 +46,6 @@ Open Startup Applications and add
 # Screenshot
 flameshot
 
+# Copy clipboard manager
+CopyQ
+
