@@ -49,3 +49,10 @@ flameshot
 # Copy clipboard manager
 CopyQ
 
+# Setup L2TP over IPsec VPN client on Ubuntu 
+```sudo apt-get update```
+```sudo apt-get install network-manager-l2tp```
+```sudo apt-get install network-manager-l2tp-gnome```
+
+Set VPN properties via GUI
+Navigate to Settings > Network > VPN > +
