@@ -49,6 +49,9 @@ flameshot
 # Copy clipboard manager
 CopyQ
 
+# Paths, to be always displayed (Ctrl+L)
+```gsettings set org.gnome.nautilus.preferences always-use-location-entry true```
+
 # Setup L2TP over IPsec VPN client on Ubuntu 
 ```sudo apt-get update```
 ```sudo apt-get install network-manager-l2tp```
