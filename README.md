@@ -59,3 +59,6 @@ CopyQ
 
 Set VPN properties via GUI
 Navigate to Settings > Network > VPN > +
+
+# Count lines of code, excluding ./vendor/* dir
+```find . -name '*.php' ! -path './vendor/*' | xargs wc -l```
