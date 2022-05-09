@@ -62,3 +62,38 @@ Navigate to Settings > Network > VPN > +
 
 # Count lines of code, excluding ./vendor/* dir
 ```find . -name '*.php' ! -path './vendor/*' | xargs wc -l```
+
+# Make an .sh script viewed as app in software searches
+In Terminal
+
+gedit ~/.local/share/applications/<Your App Name>.desktop
+In gedit
+
+Here you should edit:
+You can find more details and more keys in the freedesktop.org docs
+
+[Desktop Entry]
+# Define which specification version this entry is using 
+Version=1.0
+# The application name (eg. "Gnome Terminal", "Firefox")
+Name=My Awesome App
+# The generic app name (eg. "Terminal", "Web Browser")
+GenericName=Awesome App
+# The Tooltip
+Comment=This app is awesome!
+# The command you want to execute
+Exec=/path/to/sh/file/file.sh
+# Whether the app should run in a terminal window
+Terminal=false
+# The pretty picture :D
+Icon=/opt/PhpStorm-103.243/bin/webide.png
+# The type of the desktop entry (Application, Link, or Directory)
+Type=Application
+# Categoies the app should be in
+Categories=Network;WebBrowser;
+# Mime types this launcher can open
+MimeType=text/html;
+# Localized version of the above info
+Name[en_NZ]=My Awesome App
+GenericName[en_NZ]=Awesome App
+Comment[en_NZ]=This app is awesome!
